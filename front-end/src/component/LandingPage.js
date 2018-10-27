@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Switch, Route } from "react-router-dom";
+// import { NavLink, Switch, Route } from "react-router-dom";
 import "../Landing.css";
 
 export class LandingPage extends React.Component {
@@ -10,8 +10,8 @@ export class LandingPage extends React.Component {
           <div
             className="navbar-brand eyeat"
             to="/"
-            spy={true}
-            smooth={true}
+            // spy={true}
+            // smooth={true}
             duration={500}
           >
             <img
@@ -38,8 +38,8 @@ export class LandingPage extends React.Component {
                 <div
                   className="nav-brand"
                   to="/"
-                  spy={true}
-                  smooth={true}
+                  // spy={true}
+                  // smooth={true}
                   duration={500}
                 >
                   Central Park Dashboard

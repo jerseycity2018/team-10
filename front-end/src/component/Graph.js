@@ -5,17 +5,16 @@ import "../Graph.css";
 const key = "AoT3mpFuBYAL0kcQfWBFPlLH23U-6Y-uR_BSBuN9oJOaKPYsa-qolk0fRG-s5hsU";
 
 export class Graph extends React.Component {
-  constructor(props) {
-    super(props);
-    console.log("props", props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   componentWillUpdate(props) {
     this.props = props;
   }
 
   render() {
-    console.log("checking props.data", this.props.data);
+    // console.log("checking props.data", this.props.data);
     return (
       <div className="graph">
         <div id="test" />

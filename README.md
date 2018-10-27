@@ -4,7 +4,7 @@ Solution for the challenge problem posed by Central Park Conservancy by using he
 
 Instructions for installation and use:
 
-sudo apt install git
+sudo apt install git<br/>
 sudo apt install npm
 git clone https://github.com/jerseycity2018/team-10/
 cd front-end

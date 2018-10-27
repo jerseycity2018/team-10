@@ -1,25 +1,35 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+// start of bootstrap stuff
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import $ from "jquery";
+import Popper from "popper.js";
+// end of bootstrap stuff
+
+import { Route, Link } from "react-router-dom";
+
+import React, { Component } from "react";
+import "./App.css";
+
+import { LandingPage } from "./component/LandingPage";
+import { Footer } from "./Footer";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="container-fluid landing">
+        <div className="row">
+          <div className="col">
+            <div className="container">
+              <div className="row">
+                <div className="col">
+                  <LandingPage />
+                  <div className="graph" />
+                  <Footer />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

@@ -1,16 +1,8 @@
-.landing {
-  height: 100vh;
+.cover {
   /* background: black; */
   background: url(https://s.abcnews.com/images/US/central-park-gty-03-jpo-180420_hpMain_2_16x9_1600.jpg);
   background-size: cover;
   color: white;
-}
-
-.graph {
-  color: white;
-  background: transparent;
-  border: 1px solid white;
-  height: 92vh;
 }
 
 .scrollbar {

@@ -6,7 +6,7 @@ export class Graph extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      key: "AoT3mpFuBYAL0kcQfWBFPlLH23U-6Y-uR_BSBuN9oJOaKPYsa-qolk0fRG-s5hsU"
+      key: ""
     };
   }
 

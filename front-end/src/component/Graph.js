@@ -30,6 +30,16 @@ export class Graph extends React.Component {
                 strokeColor: "red",
                 strokeThickness: 0.1
               }
+            },
+            {
+              center: [40.78, -73.9654],
+              radius: 0.02, //we can multiply this to show how populated the area
+              points: 100,
+              option: {
+                fillColor: "yellow",
+                strokeColor: "red",
+                strokeThickness: 0.1
+              }
             }
           ]}
         />

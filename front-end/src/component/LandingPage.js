@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink, Switch, Route } from "react-router-dom";
 
 export class LandingPage extends React.Component {

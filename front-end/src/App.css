@@ -10,5 +10,9 @@
   color: white;
   background: transparent;
   border: 1px solid white;
-  height: 95vh;
+  height: 92vh;
+}
+
+.scrollbar {
+  padding: 10px 0 0;
 }

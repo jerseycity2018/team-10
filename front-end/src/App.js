@@ -12,6 +12,7 @@ import "./App.css";
 
 import { LandingPage } from "./component/LandingPage";
 import { Footer } from "./Footer";
+import { Graph } from "./component/Graph";
 
 import Slider from "rc-slider";
 // We can just import Slider or Range to reduce bundle size
@@ -59,14 +60,14 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container-fluid landing">
+      <div className="container-fluid cover">
         <div className="row">
           <div className="col">
+            <LandingPage />
             <div className="container">
               <div className="row">
                 <div className="col">
-                  <LandingPage />
-                  <div className="graph" />
+                  <Graph />
                   <div className="row scrollbar">
                     <div className="col">
                       <Slider

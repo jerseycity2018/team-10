@@ -5,6 +5,6 @@
 }
 
 .header {
-  background: white;
+  background: transparent !important;
   color: black;
 }

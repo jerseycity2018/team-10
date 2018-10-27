@@ -9,6 +9,7 @@
     "prettier": "^1.14.3",
     "rc-slider": "^8.6.3",
     "react": "^16.6.0",
+    "react-bingmaps": "^3.6.1",
     "react-dom": "^16.6.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.5"

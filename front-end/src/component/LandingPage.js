@@ -1,12 +1,11 @@
 import React from "react";
 import { NavLink, Switch, Route } from "react-router-dom";
+import "../Landing.css";
 
 export class LandingPage extends React.Component {
   render() {
     return (
-      <nav
-        className={"navbar navbar-expand-lg fixed-top navbar-light bg-light"}
-      >
+      <nav className={"navbar navbar-expand-lg navbar-light bg-light header"}>
         <div className="container">
           <NavLink
             className="navbar-brand eyeat"
@@ -15,7 +14,11 @@ export class LandingPage extends React.Component {
             smooth={true}
             duration={500}
           >
-            Central Park Dashboard
+            <img
+              src="https://www.nyrr.org/sites/default/files/styles/image202x151/public/Central-Park-Con_0.png?itok=g0BiVBfk"
+              height="60px"
+              alt="logo"
+            />
           </NavLink>
           <button
             className="navbar-toggler"
@@ -39,7 +42,7 @@ export class LandingPage extends React.Component {
                   smooth={true}
                   duration={500}
                 >
-                  Place
+                  Central Park Dashboard
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -51,17 +54,6 @@ export class LandingPage extends React.Component {
                   duration={500}
                 >
                   Time
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  className="nav-link"
-                  to="download"
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                >
-                  Social Media
                 </NavLink>
               </li>
             </ul>

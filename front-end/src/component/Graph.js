@@ -6,7 +6,7 @@ export class Graph extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      key: ""
+      key: "AoT3mpFuBYAL0kcQfWBFPlLH23U-6Y-uR_BSBuN9oJOaKPYsa-qolk0fRG-s5hsU"
     };
   }
 
@@ -23,6 +23,16 @@ export class Graph extends React.Component {
           regularPolygons={[
             {
               center: [40.7829, -73.9654],
+              radius: 0.02, //we can multiply this to show how populated the area
+              points: 100,
+              option: {
+                fillColor: "yellow",
+                strokeColor: "red",
+                strokeThickness: 0.1
+              }
+            },
+            {
+              center: [40.78, -73.9654],
               radius: 0.02, //we can multiply this to show how populated the area
               points: 100,
               option: {

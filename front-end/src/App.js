@@ -99,11 +99,12 @@ class App extends Component {
     fetch(path)
       .then(response => response.json())
       .then(data => {
+        console.log(data);
         let container = [];
         for (let i = 0; i < data.length; i++) {
           container.push({
-            center: [data[i].lat, data[i].long],
-            radius: 0.015, //we can multiply this to show how populated the area
+            center: [data[i].X2 + "  " + data[i].X1],
+            radius: 0.05, //we can multiply this to show how populated the area
             points: 100,
             option: {
               fillColor: "yellow",
@@ -158,11 +159,13 @@ class App extends Component {
     fetch(path)
       .then(response => response.json())
       .then(data => {
+        console.log(data);
         let container = [];
         for (let i = 0; i < data.length; i++) {
+          console.log(data[i].X2 + "  " + data[i].X1);
           container.push({
-            center: [data[i].lat, data[i].long],
-            radius: 0.015, //we can multiply this to show how populated the area
+            center: [data[i].X2, data[i].X1],
+            radius: 0.05 * data[i].X3 * 0.01, //we can multiply this to show how populated the area
             points: 100,
             option: {
               fillColor: "yellow",

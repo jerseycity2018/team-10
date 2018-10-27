@@ -5,9 +5,14 @@ Solution for the challenge problem posed by Cenrtral Park Conservancy through us
 Instructions for instlation and use:
 
 sudo apt install git
+
 sudo apt install npm
+
 git clone https://github.com/jerseycity2018/team-10/
+
 cd front-end
+
 npm install
+
 npm start
 

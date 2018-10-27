@@ -5,9 +5,9 @@ import "../Graph.css";
 const key = "AoT3mpFuBYAL0kcQfWBFPlLH23U-6Y-uR_BSBuN9oJOaKPYsa-qolk0fRG-s5hsU";
 
 export class Graph extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  // }
+  constructor(props) {
+    super(props);
+  }
 
   componentWillUpdate(props) {
     this.props = props;

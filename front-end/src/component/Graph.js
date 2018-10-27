@@ -2,7 +2,7 @@ import React from "react";
 import { ReactBingmaps } from "react-bingmaps";
 import "../Graph.css";
 
-const key = "INSERT_YOUR_KEY";
+const key = "AoT3mpFuBYAL0kcQfWBFPlLH23U-6Y-uR_BSBuN9oJOaKPYsa-qolk0fRG-s5hsU";
 
 export class Graph extends React.Component {
   constructor(props) {

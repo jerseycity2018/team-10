@@ -7,7 +7,7 @@ export class LandingPage extends React.Component {
     return (
       <nav className={"navbar navbar-expand-lg navbar-light bg-light header"}>
         <div className="container">
-          <NavLink
+          <div
             className="navbar-brand eyeat"
             to="/"
             spy={true}
@@ -19,7 +19,7 @@ export class LandingPage extends React.Component {
               height="60px"
               alt="logo"
             />
-          </NavLink>
+          </div>
           <button
             className="navbar-toggler"
             type="button"
@@ -35,26 +35,15 @@ export class LandingPage extends React.Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <NavLink
-                  className="nav-link"
+                <div
+                  className="nav-brand"
                   to="/"
                   spy={true}
                   smooth={true}
                   duration={500}
                 >
                   Central Park Dashboard
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  className="nav-link"
-                  to="main" //need to change
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                >
-                  Time
-                </NavLink>
+                </div>
               </li>
             </ul>
           </div>

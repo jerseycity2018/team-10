@@ -1,29 +1,28 @@
 // start of bootstrap stuff
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import $ from "jquery";
-import Popper from "popper.js";
+// import $ from "jquery";
+// import Popper from "popper.js";
 // end of bootstrap stuff
 
-import { Route, Link } from "react-router-dom";
+// import { Route, Link } from "react-router-dom";
 
 import React, { Component } from "react";
 import "./App.css";
 
 import { LandingPage } from "./component/LandingPage";
-import { Footer } from "./Footer";
+// import { Footer } from "./Footer";
 import { Graph } from "./component/Graph";
 
-import Slider from "rc-slider";
 // We can just import Slider or Range to reduce bundle size
 // import Slider from 'rc-slider/lib/Slider';
 // import Range from 'rc-slider/lib/Range';
+import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 
 class App extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       sliderA: 0,
       sliderB: 0,

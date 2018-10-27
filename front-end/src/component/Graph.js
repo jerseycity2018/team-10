@@ -5,12 +5,11 @@ import "../Graph.css";
 export class Graph extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
-      key: "AoT3mpFuBYAL0kcQfWBFPlLH23U-6Y-uR_BSBuN9oJOaKPYsa-qolk0fRG-s5hsU"
+      key: ""
     };
   }
-  componentWillReceiveProps() {}
+
   render() {
     return (
       <div className="graph">
@@ -20,16 +19,17 @@ export class Graph extends React.Component {
           center={[40.7829, -73.9654]}
           mapTypeId={"aerial"}
           zoom={14.45}
+          maxBounds={[40.7829, -73.9654]}
           regularPolygons={[
             {
               center: [40.7829, -73.9654],
-              radius: 0.03,
+              radius: 0.02, //we can multiply this to show how populated the area
               points: 100,
               option: {
-                fillColor: "red",
-                strokeThickness: 0
-              },
-              disableScrollWheelZoom: true
+                fillColor: "yellow",
+                strokeColor: "red",
+                strokeThickness: 0.1
+              }
             }
           ]}
         />

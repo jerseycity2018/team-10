@@ -1,6 +1,6 @@
 # team-10
 
-Solution for the challenge problem posed by Central Park Conservancy by using heap map and other visualizations on a web application hosted on AWS EC3 instance. Done through J.P. Morgan Chase & Co. Code For Good Challenge in R, Javascript, and React.
+Solution for the challenge problem posed by Central Park Conservancy by using heap map and other visualizations on a web application hosted on AWS EC2 instance. Done through J.P. Morgan Chase & Co. Code For Good Challenge in R, Javascript, and React.
 
 Instructions for installation and use:
 
